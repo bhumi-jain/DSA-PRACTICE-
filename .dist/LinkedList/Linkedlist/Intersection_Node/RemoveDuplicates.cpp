@@ -17,3 +17,5 @@ Node* removeDuplicates(Node* head){
     }
     return head; 
 }
+//T.C=O(N) it seems to be O(N^2) but by visualising we can see that it skips duplicates and inner loop takes care of it
+//S.C =O(1)
