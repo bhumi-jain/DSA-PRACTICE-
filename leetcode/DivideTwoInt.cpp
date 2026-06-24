@@ -17,12 +17,10 @@ public:
 
         long long result = 0;
 
-        
         while (a >= b) {
             long long temp = b;
             long long multiple = 1;
 
-           
             while ((temp << 1) <= a) {
                 temp <<= 1;
                 multiple <<= 1;
